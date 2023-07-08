@@ -256,9 +256,13 @@
     .footerMain .footerInner{
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
     .footerMain .footerInner ul li{
         text-align: center;
+    }
+    .footerMain .footerInner .footerli{
+        width: 100%;
     }
 }
 
