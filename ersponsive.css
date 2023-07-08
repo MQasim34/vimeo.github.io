@@ -257,6 +257,9 @@
         display: flex;
         flex-direction: column;
     }
+    .footerMain .footerInner ul li{
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 428px){
