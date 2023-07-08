@@ -1,0 +1,290 @@
+@media only screen and (max-width: 991px){
+    .headerMain .inner .moboBar{
+        display: block;
+    }
+    .mobobarmain{
+        display: block;
+    }
+    .headerMain .inner .headerLeft .navBar{
+        display: none;
+    }
+    .headerMain .inner .headerRight .rightnav{
+        display: none;
+    }
+    /* banner-section */
+
+    .bannerSec .bwrapper .bannerCon .mainTitle{
+        font-size: 48px;
+    }
+    .bannerSec .bwrapper .bannerCon .bannerpara{
+        font-size: 18px;
+    }
+
+
+    /* .bannerSec .jioners .jioners_col .inner */
+
+    .bannerSec .jioners .maintitle{
+        font-size: 36px;
+    }
+    .bannerSec .jioners .jioners_col .inner{
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bannerSec .jioners .content_outer{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .launch .launchtitle{
+        font-size: 46px;
+    }
+    .launch .para{
+        font-size: 17px;
+    }
+    .ourTeam .inner .outLeft{
+        width: 55%;
+    }
+    .ourTeam .inner .outRight{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .bannerSec .bwrapper .bannerCon .mainTitle{
+        font-size: 36px;
+    }
+    .bannerSec .bwrapper .bannerCon .bannerpara{
+        font-size: 14px;
+    }
+    .handleTech .inner{
+        flex-direction: column;
+    }
+    .handleTech .inner .left{
+        -webkit-order: 3;
+        width: 100%;
+    }
+    .handleTech .inner .right{
+        /* -webkit-order: 3; */
+        width: 100%;
+    }
+    .handleTech .inner .left .formargin{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .handleTech .inner .left .title{
+        font-size: 36px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .handleTech .inner .left .handlePara{
+        font-size: 18px;
+        text-align: center;
+    }
+    .handleTech{
+        padding: 60px 0;
+    }
+    .launch{
+        padding: 60px 0;
+    }
+    .launch .launchtitle{
+        font-size: 36px;
+    }
+    .launch .para{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .launch .launchbtn{
+        margin-top: 10px;
+    }
+
+    .monitizeMain .formargin .inner{
+        flex-direction: column;
+        text-align: center;
+    }
+    .monitizeMain .formargin .inner .left{
+        -webkit-order: 3;
+        width: 100%;
+    }
+    .monitizeMain .formargin .inner .left,
+    .monitizeMain .formargin .inner .right{
+        width: 100%;
+    }
+    .monitizeMain .formargin .inner .right>div{
+        padding: 0;
+    }
+
+    /* .monitizeMain .formargin .inner .left .title */
+    .monitizeMain .formargin .inner .left .title{
+        font-size: 36px;
+        text-align: center;
+    }
+    .monitizeMain .formargin .inner .left .para{
+        font-size: 17px;
+        text-align: center;
+    }
+    .monitizeMain .formargin .inner .iteLisst ul{
+        padding: 0;
+    }
+    .monitizeMain .formargin .inner .iteLisst ul li:after{
+        left: 100px;
+    }
+    /* .homeabout */
+    .homeabout{
+        text-align: center;
+    }
+    .homeabout .ahContent .para{
+        font-size: 17px;
+    }
+
+    /* .ottfaq .formargin .inner */
+    .ottfaq .formargin .inner{
+        flex-direction: column;
+    }
+    .ottfaq .formargin .inner .left,
+    .ottfaq .formargin .inner .right{
+        width: 100%;
+    }
+    .ottfaq .formargin .inner .left h1{
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+    .ottfaq .formargin .inner .right .accordion-button{
+        font-size: 24px;
+        padding: 15px 0 25px 0;
+    }
+    .ottfaq .formargin .inner .right .accordion-body{
+        font-size: 17px;
+    }
+    .ourTeam .inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .ourTeam .inner .outLeft,
+    .ourTeam .inner .outRight{
+        width: 100%;
+    }
+    .ourTeam .inner h1{
+        text-align: center;
+        font-size: 36px;
+    }
+    /* .footerMain .footerInner */
+    .footerMain .footerInner{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 30px;
+    }
+    .footerMain .footerInner ul{
+        margin-top: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width: 575px){
+    .headerMain .inner .headerRight .getSrt a{
+        display: none;
+    }
+    .homeSplideSlider{
+        margin-top: 70px;
+        margin-bottom: 90px;
+    }
+    .bannerSec .jioners .maintitle{
+        font-size: 30px;
+    }
+    .handleTech .inner .left .title{
+        font-size: 30px;
+    }
+    .handleTech .inner .left .handlePara{
+        font-size: 15px;
+        margin-top: 25px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .ourTeam .fromargin,
+    .ottfaq .formargin,
+    .monitizeMain .formargin,
+    .launch .lauchmain,
+    .handleTech .inner{
+        padding: 0 12px;
+    }
+    .launch .launchtitle{
+        font-size: 30px;
+    }
+    .launch .para{
+        font-size: 15px;
+    }
+    .lauchImg2,
+    .launch .lauchImg{
+        margin-top: 20px;
+    }
+    .monitizeMain .formargin .inner .iteLisst ul{
+        gap: 20px;
+    }
+    .monitizeMain .formargin .inner .iteLisst ul li:after{
+        left: 0px;
+    }
+    .monitizeMain .formargin .inner .left .para{
+        font-size: 14px;
+    }
+    .monitizeMain .formargin .inner .iteLisst ul li{
+        font-size: 18px;
+    }
+    .monitizeMain .formargin .inner .btnme{
+        margin-top: 40px;
+    }
+    .monitizeMain{
+        padding: 45px 0;
+    }
+    .monitizeMain .formargin .inner .left .para{
+        padding: 0;
+    }
+    .monitizeMain .formargin .inner.section2 .left{
+        padding: 0;
+    }
+    .homeabout{
+        padding: 45px 0;
+    }
+    .ottfaq{
+        padding: 60px 0 40px 0;
+    }
+    .ottfaq .formargin .inner .right .accordion-body{
+        font-size: 15px;
+    }
+    .footerMain .footerInner{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 428px){
+    .bannerSec .jioners .maintitle{
+        font-size: 22px;
+    }
+    .handleTech .inner .left p{
+        font-size: 18px;
+        padding: 0 45px;
+    }
+    .homeabout .ahContent .para{
+        font-size: 14px;
+    }
+    .ottfaq {
+        padding: 45px 0 20px 0;
+    }
+    .ottfaq .formargin .inner .left h1{
+        font-size: 25px;
+    }
+    .ottfaq .formargin .inner .right .accordion-button{
+        font-size: 18px;
+        padding: 10px 0 15px 0;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .handleTech .inner .left p{
+        font-size: 16px;
+        padding: 0 45px;
+    }
+}
